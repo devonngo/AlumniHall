@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /**  About section  **/
 #about {
-  background-color: #051F08;
+  background-color: #F3F3F3;
   padding-top: 5em;
   padding-bottom: 2em;
   margin-top: -2em;
@@ -98,23 +98,24 @@ h1, h2, h3, h4, h5, h6 {
 .section-title {
   font-size: 4em;
   padding-bottom: .1em;
-  color: #fff;
+  color: #08330D;
   border-bottom: 2px solid #ffcc00;
 }
 
 .blockquote {
   padding: 1em 0 1em 0;
-  color: rgba(255, 255, 255, 0.7);
+  color: #08330D;
   font-size: 1.4em;
 }
 
 .section-content {
   font-size: 1.2em;
+  color: #08330D
 }
 
 .card {
   border-radius: 10px;
-  background-color: #0a233f;
+  background-color: #08330D;
   padding: 1em;
   -webkit-transition: 500ms;
   transition: 500ms;

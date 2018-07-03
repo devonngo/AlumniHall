@@ -3,8 +3,9 @@ $primary-color-transparent: rgba(16, 99, 0, .9)
 $alumni-dark: #051F08
 $alumni-accent: #ffcc00
 $alumni-accent-t7: rgba(255, 204, 0, .7)
-$nd-navy: #0a233f
-
+$alumni-light: #D3D3D3
+$nd-navy: #D3D3D3
+$silver: #D3D3D3
 $soft-gray: #dfdfdf
 $white-transparent-6: rgba(255, 255, 255, 0.6)
 $white-transparent-7: rgba(255, 255, 255, 0.7)
@@ -12,7 +13,7 @@ $white-transparent-7: rgba(255, 255, 255, 0.7)
 html, body
     height: 100%
     background-color: $alumni-dark
-    
+
 
 h1, h2, h3, h4, h5, h6
     font-family: 'Merriweather', serif
@@ -36,22 +37,22 @@ h1, h2, h3, h4, h5, h6
     color: #ffffff
     transition: 750ms
     transition-timing-function: ease-out
-    
+
 .link:hover
     color: $white-transparent-6
     transition: 250ms
-    transition-timing-function: ease-in 
+    transition-timing-function: ease-in
 
 @media (min-width: 768px)
     .link
         border-bottom: 2px solid rgba(255, 255, 255, 0)
         transition: 750ms
         transition-timing-function: ease-out
-    
+
     .link:hover
         border-bottom: 2px solid $white-transparent-6
         transition: 250ms
-        transition-timing-function: ease-in 
+        transition-timing-function: ease-in
 
 /** hero image **/
 
@@ -67,7 +68,7 @@ h1, h2, h3, h4, h5, h6
     background-size: cover
     padding-top: 25vh
 
-    
+
 #welcome
     color: $white-transparent-7
     padding-bottom: 1.5vh
@@ -78,7 +79,7 @@ h1, h2, h3, h4, h5, h6
 
 /**  About section  **/
 #about
-    background-color: $alumni-dark
+    background-color: $alumni-light
     padding-top: 5em
     padding-bottom: 2em
     margin-top: -2em
@@ -100,7 +101,8 @@ h1, h2, h3, h4, h5, h6
 
 .section-content
     font-size: 1.2em
-    
+    color: #08330D
+
 
 .card
     border-radius: 10px
