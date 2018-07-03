@@ -102,6 +102,13 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 2em;
   margin-top: -2em;
 }
+/** Faith Section**/
+#faith {
+  background-color: #F2f2f2;
+  padding-top: 5em;
+  padding-bottom: 2em;
+  margin-top: -2em;
+}
 
 #coatOfArms {
   padding-top: 1em;
@@ -111,10 +118,15 @@ h1, h2, h3, h4, h5, h6 {
 .section-title {
   font-size: 4em;
   padding-bottom: .1em;
-  color: #051F08;
+  color: #08330D;
   border-bottom: 2px solid #ffcc00;
 }
 
+.sub-section-title {
+  font-size: 2.5em;
+  padding-bottom: .1em;
+  color: #08330D;
+}
 .blockquote {
   padding: 1em 0 1em 0;
   color: #08330D;
@@ -144,6 +156,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-title, .card-text {
   color: #ffffff;
+}
+
+.footer{
+  border-top: 2px solid #ffcc00;
+  background-color: #f2f2f2;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-left: 2em;
+   /**-moz-box-shadow:    inset 0 10px 9px -7px #000;
+   -webkit-box-shadow: inset 0 10px 9px -7px #000;
+   box-shadow:         inset 0 10px 9px -7px #000;**/
 }
 
 .btn-primary {
