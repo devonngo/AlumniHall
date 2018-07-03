@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  background-color: #051F08;
+  background-color: ##f2f2f2;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 .link {
   font-family: 'Crimson Text';
   font-size: 1.2em;
+  color: #051F08
 }
 
 #nav-logo {
@@ -22,11 +23,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-alumni {
-  background-color: rgba(16, 99, 0, 0.9);
+  background-color: #F2f2f2;
 }
 
 .link {
-  color: #ffffff;
+  color: #051F08;
   -webkit-transition: 750ms;
   transition: 750ms;
   -webkit-transition-timing-function: ease-out;
@@ -84,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /**  About section  **/
 #about {
-  background-color: #F3F3F3;
+  background-color: #F2f2f2;
   padding-top: 5em;
   padding-bottom: 2em;
   margin-top: -2em;
@@ -98,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-title {
   font-size: 4em;
   padding-bottom: .1em;
-  color: #08330D;
+  color: #051F08;
   border-bottom: 2px solid #ffcc00;
 }
 
