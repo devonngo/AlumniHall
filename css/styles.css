@@ -1,12 +1,13 @@
 html, body {
   height: 100%;
+  background-color: ##f2f2f2;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
 }
 
-.card-text, p, a {
+.card-text, p {
   font-family: 'Muli', sans-serif;
 }
 
@@ -14,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 .link {
   font-family: 'Crimson Text';
   font-size: 1.2em;
+  color: #051F08
 }
 
 #nav-logo {
@@ -21,11 +23,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-alumni {
-  background-color: rgba(5, 31, 8, 0.9);
+  background-color: #F2f2f2;
 }
 
 .link {
-  color: #fff;
+  color: #051F08;
   -webkit-transition: 750ms;
   transition: 750ms;
   -webkit-transition-timing-function: ease-out;
@@ -57,38 +59,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* custom footer CSS */
-#footer {
-  padding: 2em 0 2em 0;
-  background-color: #fefff9;
-  margin-top: 2em;
-  border-top: 2px solid #ffcc00;
-  color: #051f08;
-}
-
-footer a {
-  color: #051f08;
-  text-decoration: underline;
-}
-
-.mobile-footer {
-  display: none;
-}
-
-#academic-mark {
-  height: 3em;
-}
-
-@media (max-width: 768px) {
-  .desktop-footer {
-    display: none;
-  }
-  .mobile-footer {
-    display: block;
-    text-align: center;
-  }
-}
-
 /** hero image **/
 .jumbotron {
   background-image: url(../images/tower-green.png);
@@ -103,8 +73,20 @@ footer a {
   padding-top: 25vh;
 }
 
-.banner {
-  color: rgba(255, 255, 255, 0.7);
+.jumbotronfaith {
+  background-image: url(../images/FaithBg.jpg);
+  z-index: -10;
+  background-attachment: fixed;
+  min-height: 100%;
+  height: 100%;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 25vh;
+}
+#welcome {
+  color: rgba(242, 242, 242, 0.9);
   padding-bottom: 1.5vh;
   font-size: 4em;
 }
@@ -115,7 +97,14 @@ footer a {
 
 /**  About section  **/
 #about {
-  background-color: #fefff9;
+  background-color: #F2f2f2;
+  padding-top: 5em;
+  padding-bottom: 2em;
+  margin-top: -2em;
+}
+/** Faith Section**/
+#faith {
+  background-color: #F2f2f2;
   padding-top: 5em;
   padding-bottom: 2em;
   margin-top: -2em;
@@ -129,32 +118,34 @@ footer a {
 .section-title {
   font-size: 4em;
   padding-bottom: .1em;
-  color: #051f08;
-  border-bottom: 0.04em solid #ffcc00;
+  color: #08330D;
+  border-bottom: 2px solid #ffcc00;
 }
 
+.sub-section-title {
+  font-size: 2.5em;
+  padding-bottom: .1em;
+  color: #08330D;
+}
 .blockquote {
   padding: 1em 0 1em 0;
-  color: #051f08;
+  color: #08330D;
   font-size: 1.4em;
-}
-
-.blockquote-footer {
-  color: rgba(5, 31, 8, 0.6);
 }
 
 .section-content {
   font-size: 1.2em;
+  color: #08330D
 }
 
-/* card css */
 .card {
   border-radius: 10px;
-  background-color: #051f08;
+  background-color: #08330D;
   padding: 1em;
   -webkit-transition: 500ms;
   transition: 500ms;
   height: 100%;
+
 }
 
 .card:hover {
@@ -167,20 +158,19 @@ footer a {
   color: #ffffff;
 }
 
-.card-img-top {
-  width: 70%;
-  margin-left: 15%;
-}
-
-@media (max-width: 768px) {
-  .card-img-top {
-    width: 50%;
-    margin-left: 25%;
-  }
+.footer{
+  border-top: 2px solid #ffcc00;
+  background-color: #f2f2f2;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-left: 2em;
+   /**-moz-box-shadow:    inset 0 10px 9px -7px #000;
+   -webkit-box-shadow: inset 0 10px 9px -7px #000;
+   box-shadow:         inset 0 10px 9px -7px #000;**/
 }
 
 .btn-primary {
-  background-color: #051f08;
+  background-color: #051F08;
   border-color: rgba(255, 255, 255, 0.7);
   padding: .5em .75em;
   border-radius: 5px;
@@ -191,7 +181,7 @@ footer a {
 .btn-primary:hover {
   background-color: #ffcc00;
   border-color: #ffcc00;
-  color: #051f08;
+  color: #051F08;
   -webkit-transition: 750ms;
   transition: 750ms;
 }

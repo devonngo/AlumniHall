@@ -1,28 +1,24 @@
-$primary-color: rgb(16,99,0)
-$primary-color-t6: rgba(16, 99, 0, .7)
-
-$alumni-light: rgb(254, 255, 249)
-
-$alumni-dark: rgb(5, 31, 8)
-$alumni-dark-t6: rgba(5, 31, 8, .6)
-$alumni-dark-t9: rgba(5,31,8,.9)
-
-$alumni-accent: rgb(255, 204, 0)
+$primary-color: #106300
+$primary-color-transparent: rgba(16, 99, 0, .9)
+$alumni-dark: #051F08
+$alumni-accent: #ffcc00
 $alumni-accent-t7: rgba(255, 204, 0, .7)
-
-$nd-navy: rgb(10, 35, 63)
-
+$alumni-light: #D3D3D3
+$nd-navy: #D3D3D3
+$silver: #D3D3D3
+$soft-gray: #dfdfdf
 $white-transparent-6: rgba(255, 255, 255, 0.6)
 $white-transparent-7: rgba(255, 255, 255, 0.7)
 
 html, body
     height: 100%
-    
+    background-color: $alumni-dark
+
 
 h1, h2, h3, h4, h5, h6
     font-family: 'Merriweather', serif
 
-.card-text, p, a
+.card-text, p
     font-family: 'Muli', sans-serif
 
 
@@ -35,55 +31,28 @@ h1, h2, h3, h4, h5, h6
     height: 1.5em
 
 .bg-alumni
-    background-color: $alumni-dark-t9
+    background-color: $primary-color-transparent
 
 .link
-    color: #fff
+    color: #ffffff
     transition: 750ms
     transition-timing-function: ease-out
-    
+
 .link:hover
     color: $white-transparent-6
     transition: 250ms
-    transition-timing-function: ease-in 
+    transition-timing-function: ease-in
 
 @media (min-width: 768px)
     .link
         border-bottom: 2px solid rgba(255, 255, 255, 0)
         transition: 750ms
         transition-timing-function: ease-out
-    
+
     .link:hover
         border-bottom: 2px solid $white-transparent-6
         transition: 250ms
-        transition-timing-function: ease-in 
-
-/* custom footer CSS */
-#footer
-    padding: 2em 0 2em 0
-    background-color: $alumni-light
-    margin-top: 2em
-    border-top: 2px solid $alumni-accent
-    color: $alumni-dark
-
-footer a
-    color: $alumni-dark
-    text-decoration: underline
-
-.mobile-footer
-    display: none
-
-#academic-mark
-    height: 3em
-
-@media (max-width: 768px)
-    .desktop-footer
-        display: none
-    
-    .mobile-footer
-        display: block
-        text-align: center
-
+        transition-timing-function: ease-in
 
 /** hero image **/
 
@@ -99,8 +68,8 @@ footer a
     background-size: cover
     padding-top: 25vh
 
-    
-.banner
+
+#welcome
     color: $white-transparent-7
     padding-bottom: 1.5vh
     font-size: 4em
@@ -122,27 +91,26 @@ footer a
 .section-title
     font-size: 4em
     padding-bottom: .1em
-    color: $alumni-dark
-    border-bottom: .04em solid $alumni-accent
+    color: #fff
+    border-bottom: 2px solid $alumni-accent
 
 .blockquote
     padding: 1em 0 1em 0
-    color: $alumni-dark
+    color: $white-transparent-7
     font-size: 1.4em
-
-.blockquote-footer
-    color: $alumni-dark-t6
 
 .section-content
     font-size: 1.2em
+    color: #08330D
 
-/* card css */
+
 .card
     border-radius: 10px
-    background-color: $alumni-dark
+    background-color: $nd-navy
     padding: 1em
     transition: 500ms
     height: 100%
+    border: 2px solid $white-transparent-6
 
 .card:hover
     transition: 350ms
@@ -150,16 +118,6 @@ footer a
 
 .card-title, .card-text
     color: #ffffff
-
-.card-img-top
-    width: 70%
-    margin-left: 15%
-
-@media (max-width: 768px)
-    .card-img-top
-        width: 50%
-        margin-left: 25%
-    
 
 .btn-primary
     background-color: $alumni-dark
