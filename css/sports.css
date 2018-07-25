@@ -241,8 +241,13 @@ footer p {
   border: 2px solid #106300;
 }
 
+p, ul li, ul a, div.side-items a {
+  font-size: 1.1em;
+  font-family: 'Muli', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .jumbotron {
-  background-image: url("/images/Matt Cashore/bb_fgr.jpg");
+  background-image: url("/images/banners/dawgs_bb.jpg");
   z-index: -10;
   background-attachment: fixed;
   height: 65%;
@@ -254,7 +259,7 @@ footer p {
 }
 
 .img-responsive {
-  display: inline-block;
+  margin: .5em 0;
 }
 
 .banner {
@@ -294,5 +299,9 @@ footer p {
   .section-title {
     padding-top: 1em;
   }
+}
+
+#sport-selections, #interhall, #intramural, #info, #recognition {
+  padding-top: 1em;
 }
 /*# sourceMappingURL=sports.css.map */

@@ -36,8 +36,8 @@ a:hover {
 
 @media (max-width: 767px) {
   .brand-bar a {
-    margin: 0 auto;
     text-align: center;
+    margin: 0 auto;
   }
 }
 
@@ -301,7 +301,7 @@ footer p {
 }
 
 .side-items p {
-  font-size: 1.1em;
+  font-size: 1.05em;
 }
 
 @media (max-width: 767px) {
@@ -311,6 +311,6 @@ footer p {
 }
 
 .img-fluid {
-  padding: .5em 0 1.5em 0;
+  margin: .5em 0 1.5em 0;
 }
 /*# sourceMappingURL=faith.css.map */
