@@ -300,7 +300,7 @@ footer p {
   padding: 1em;
 }
 
-.side-items p {
+.side-items p, footer p {
   font-size: 1.05em;
 }
 
