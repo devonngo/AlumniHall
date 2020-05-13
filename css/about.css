@@ -246,7 +246,7 @@ p {
 }
 
 .jumbotron {
-  background-image: url("/images/banners/entrance.jpg");
+  background-image: url("images/banners/entrance.jpg");
   z-index: -10;
   background-attachment: fixed;
   height: 65%;
